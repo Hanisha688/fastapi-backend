@@ -20,5 +20,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ${{ env.IMAGE_NAME }}:${{ steps.vars.outputs.sha_short }}
-            ${{ env.IMAGE_NAME }}:latest
+            nisha1122/fastapi-backend:${{ steps.vars.outputs.sha_short }}
+            nisha1122/fastapi-backend:latest
